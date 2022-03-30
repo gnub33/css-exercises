@@ -1,10 +1,10 @@
 .left {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .right {
-    background-color: yellow;
+    background-color: #ffff00;
 }
 
 .left,
