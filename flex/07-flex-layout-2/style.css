@@ -26,3 +26,52 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* Solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color:#eee;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar ul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
